@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF8E007316F3717200E86BDD /* skyrim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF8E007216F3717200E86BDD /* skyrim.jpg */; };
+		AF9F56A816F2881200244D20 /* LocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9F56A616F2881200244D20 /* LocationsViewController.m */; };
+		AF9F56A916F2881200244D20 /* LocationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF9F56A716F2881200244D20 /* LocationsViewController.xib */; };
 		AFFB11F616F2525600CA6787 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFB11F516F2525600CA6787 /* UIKit.framework */; };
 		AFFB11F816F2525600CA6787 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFB11F716F2525600CA6787 /* Foundation.framework */; };
 		AFFB11FA16F2525600CA6787 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFB11F916F2525600CA6787 /* CoreGraphics.framework */; };
@@ -22,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF8E007216F3717200E86BDD /* skyrim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skyrim.jpg; sourceTree = "<group>"; };
+		AF9F56A516F2881200244D20 /* LocationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationsViewController.h; sourceTree = "<group>"; };
+		AF9F56A616F2881200244D20 /* LocationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationsViewController.m; sourceTree = "<group>"; };
+		AF9F56A716F2881200244D20 /* LocationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationsViewController.xib; sourceTree = "<group>"; };
 		AFFB11F216F2525600CA6787 /* helloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFB11F516F2525600CA6787 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AFFB11F716F2525600CA6787 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF8E007116F3714C00E86BDD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AF8E007216F3717200E86BDD /* skyrim.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		AFFB11E916F2525600CA6787 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +100,7 @@
 		AFFB11FB16F2525600CA6787 /* helloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				AF8E007116F3714C00E86BDD /* images */,
 				AFFB120416F2525700CA6787 /* AppDelegate.h */,
 				AFFB120516F2525700CA6787 /* AppDelegate.m */,
 				AFFB120D16F2525700CA6787 /* ViewController.h */,
@@ -92,6 +108,9 @@
 				AFFB121016F2525700CA6787 /* ViewController_iPhone.xib */,
 				AFFB121316F2525700CA6787 /* ViewController_iPad.xib */,
 				AFFB11FC16F2525600CA6787 /* Supporting Files */,
+				AF9F56A516F2881200244D20 /* LocationsViewController.h */,
+				AF9F56A616F2881200244D20 /* LocationsViewController.m */,
+				AF9F56A716F2881200244D20 /* LocationsViewController.xib */,
 			);
 			path = helloWorld;
 			sourceTree = "<group>";
@@ -167,6 +186,8 @@
 				AFFB120C16F2525700CA6787 /* Default-568h@2x.png in Resources */,
 				AFFB121216F2525700CA6787 /* ViewController_iPhone.xib in Resources */,
 				AFFB121516F2525700CA6787 /* ViewController_iPad.xib in Resources */,
+				AF9F56A916F2881200244D20 /* LocationsViewController.xib in Resources */,
+				AF8E007316F3717200E86BDD /* skyrim.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +201,7 @@
 				AFFB120216F2525600CA6787 /* main.m in Sources */,
 				AFFB120616F2525700CA6787 /* AppDelegate.m in Sources */,
 				AFFB120F16F2525700CA6787 /* ViewController.m in Sources */,
+				AF9F56A816F2881200244D20 /* LocationsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +334,7 @@
 				AFFB121A16F2525700CA6787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
